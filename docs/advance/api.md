@@ -12,7 +12,7 @@ lang: zn-CN
 * **closeRoute**  
 要关闭的页签对应的 route 对象，可简写为路由的 fullPath 字符串值。
 * **nextRoute**  
-关闭页签要后跳转的 route 对象，可不传，不传则会自动选择打开页签（临近原则）。
+关闭页签后要跳转的 route 对象，可不传，不传则会自动选择打开页签（临近原则）。
 
 ### $refreshPage(route)
 该api用于刷新路由对应的页签，接收一个参数：
